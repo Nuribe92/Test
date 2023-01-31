@@ -1,0 +1,28 @@
+/*fuentes*/
+@font-face {
+    font-family:'TrebuchetMS';
+    src: url('fonts/TrebuchetMS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'BebasNeue';
+    src: url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'WebsymbolsRegular';
+    src: url('fonts/Websymbols-regular-webfont.eot');
+    src: url('fonts/Websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/fonts/Websymbols-regular-webfont.woff') format('woff')
+    url('fonts/Websymbols-regular-webfont.ttf') format('trueType'),
+    url('fonts/Websymbols-regular-webfont.svg#webSymbolsRgeular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Generales*/
+.gear{
+    font-family: 'webSymbolsRegular';
+}

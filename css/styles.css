@@ -32,7 +32,7 @@ body {
   background: url("../img/pattern.png");
 }
 .wrap {
-  width: 1200px;
+  width: 1250px;
   margin: 0px auto;
 }
 
@@ -72,7 +72,7 @@ body {
     margin-right: 65px;
 }
 
-.gear {
+.gear, .icon{
   font-family: "WebSymbolsRegular";
 }
 
@@ -104,12 +104,12 @@ body {
 
 /*BANNER*/
 #banner{
-  width: 95.6%;
+  width: 95.5%;
   height: 100px;
   border:10px solid white;
   box-shadow: 0px 0px 2px gray;
   background: url("../img/bakbaner.png");
-  background-position:-200px -200px ;
+  background-position:-389px -157px ;
   margin: 20px;
 }
 #banner h1{
@@ -123,3 +123,23 @@ body {
   margin: 23px auto;
   text-shadow: 2px 2px 1px black;
 }
+
+/*TARJETAS*/
+.card{
+  float: left;
+  overflow: hidden;
+  width: 205px;
+  height: 305px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px #ccc ;
+  background: white;
+  margin: 22px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.card:last-child{
+  margin-right: 0px;
+}
+
+.card

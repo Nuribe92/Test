@@ -160,3 +160,9 @@ body {
   text-align: center;
   color: #00538c;
 }
+.card .description{
+  font-family: "TrebuchetMS";
+  color: #026aaf;
+  text-align: center;
+  font-size: 15px;
+}

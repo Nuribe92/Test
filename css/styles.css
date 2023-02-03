@@ -172,7 +172,7 @@ body {
   min-height: 1200px;
   font-family: "TrebuchetMS";
   float: right;
-
+  margin: 20px;
 }
 
 aside h3{
@@ -189,4 +189,7 @@ aside h3{
   padding-left: 15px;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+aside h3:first-child{
+  margin-top: 0px;
 }

@@ -288,6 +288,7 @@ aside h3:first-child{
   font-family: "TrebuchetMS";
   font-weight: lighter;
   margin-left: 17px;
+  margin-bottom: 20px;
   transition: all 300ms;
 }
 
@@ -296,4 +297,17 @@ aside h3:first-child{
 #login input[type="reset"]:hover,
 #login button:hover{
   box-shadow: 0px 0px 3px gray;
+}
+
+#login a{
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 18px;
+  color: #555;
+}
+
+#login a:hover{
+  text-decoration: underline;
+  color: #2f78bc;
 }

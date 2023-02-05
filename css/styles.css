@@ -402,3 +402,20 @@ aside h3:first-child{
   margin-bottom: 10px;
   font-size: 15px;
 }
+
+#blog{
+  height: 100px;
+  margin-top: 60px;
+  line-height: 100px;
+  text-align: center;
+  
+
+}
+
+#blog a{
+  font-family: "BebasNeue";
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #00538c;
+  text-decoration: none;
+}

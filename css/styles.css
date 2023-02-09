@@ -685,7 +685,9 @@ footer a {
 }
 
 #footer ul li:hover a {
-  padding-left: 40px;
+  padding-left: 70px;
+  color: white;
+  width: 100%;
 }
 
 #footer iframe {

@@ -36,3 +36,21 @@
         font-size:30px ;
     }
 }
+
+@media (max-width: 1080px){
+    .card .category{
+        font-size: 17px;
+    }
+    .card .description{
+        font-size: 17px;
+    }
+    #articles{
+        width: 61%;
+    }
+}
+
+@media (max-width: 970px){
+    #articles{
+        width: 59%;
+    }
+}

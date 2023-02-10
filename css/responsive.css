@@ -3,9 +3,21 @@
         width: 90%;
         margin: 0 auto;
     }
+    #banner h1{
+        font-size: 35px;
+        text-align: center;
+        margin: 32px auto;
+    }
     .card{
         width: 17%;
         margin: 1.45%;
+    }
+
+    .card p{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
     }
     #articles{
         width: 65%;
@@ -19,5 +31,8 @@
     }
     #footer #browser img{
         width: 14%;
+    }
+    #footer h5{
+        font-size:30px ;
     }
 }

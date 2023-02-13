@@ -150,3 +150,28 @@
         width: 70%;
     }
 }
+@media (max-width: 660px){
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+        margin-top: 20px;
+    }
+    #articles{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+    #banner h1{
+        font-size: 20px;
+    }
+    #lateral input[type="text"]{
+        width: 93%;
+    }
+    #login input[type="email"], #login input[type="password"]{
+        width: 90%;
+    }
+    
+}

@@ -188,6 +188,77 @@
     #footer img{
         width: 65%;
     }
+    .card{
+        width: 16%;
+        padding-left: 3px;
+    }
+    .card:last-child{
+        margin-right: 0px;
+    }
 
     
+}
+@media (max-width: 475px){
+   #menu{
+    width: 100%;
+    clear: both;
+    float: none;
+    margin: 0px auto;
+   }
+   #menu ul li{
+    width: 100%;
+    line-height: 52px;
+   }
+   #menu ul li a{
+    width: 100%;
+    line-height: 52px;
+   }
+   #menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1, 1);
+   }
+   #logo{
+    float: left;
+   }
+   #header{
+    height: 275px;
+    width: 100%;
+    padding-top: 10px;
+
+   }
+    #banner{
+        height: 85px;
+        margin-left: 6px;
+        width: 93%;
+    }
+    #banner h1{
+        font-size: 18px;
+        margin: 25px auto;
+    }
+    #lateral input[type="text"]{
+        width: 85%;
+    }
+    .card{
+        padding-left: 2px;
+    }
+    .card .icon{
+        font-size: 35px;
+    }
+    .card:hover .icon{
+        font-size: 35px;
+    }
+    .card .category{
+        font-size: 13px;
+    }
+    #articles .data{
+        float: none;
+        margin: -10px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    #articles article h4{
+        margin-top: 20px;
+    }
+    #footer .wrap >div{
+        height: fit-content;
+    }
 }

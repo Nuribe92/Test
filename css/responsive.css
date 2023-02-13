@@ -173,5 +173,17 @@
     #login input[type="email"], #login input[type="password"]{
         width: 90%;
     }
+    #footer{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    #footer .wrap > div{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    #footer h5{
+        width: 25px;
+    }
     
 }

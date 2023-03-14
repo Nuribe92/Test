@@ -685,7 +685,7 @@ footer a {
 }
 
 #footer ul li:hover a {
-  padding-left: 70px;
+  padding-left: 20px;
   color: white;
   width: 100%;
 }

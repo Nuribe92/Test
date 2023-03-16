@@ -5,3 +5,5 @@
 /*Busquedas dentro de un array
 arr.find(function(parametro)) */
 
+/*Arr.some(parametro)
+esta funcion nos va a decir si dentro del array hay algun elemento como el parametro, va a comprobar todos los elementos */

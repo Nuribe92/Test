@@ -20,13 +20,14 @@ esta funcion nos va a decir si dentro del array hay algun elemento como el param
  */
 var numeros = [];
 function mostrararray(elementos, textoCustom){
-    document.write("<h1>Contenido del array"+textoCustom+"</h1>");
+    document.write("<h1>Contenido del array "+textoCustom+"</h1>");
     document.write("<ul>");
     elementos.forEach((elemento, index) => {
-    document.write("<li>" +elemento+ "</li>")
+    document.write("<li> " +elemento+ "</li>")
 });
   document.write("</ul>");
 }
+
 for( let i = 0; i <= 5; i++){
     //numeros[i] = parseInt(prompt("Introduce un numero", 0));
     numeros.push(parseInt(prompt("Introduce un numero", 0)));
@@ -35,7 +36,7 @@ for( let i = 0; i <= 5; i++){
 
 document.write("<h1>Contenido del array</h1>");
 numeros.forEach((numero, index) => {
-    document.write("<strong>" +numero+ "</strong><br>")
+    document.write("<li><strong>" +numero+ "</strong></li><br>")
 })
 
 //mostrar en la consola
@@ -43,5 +44,24 @@ console.log(numeros);
 
 //ordenar y mostrar
 
-numeros.sort()
+numeros.sort(function(a, b){return a-b})
 mostrararray(numeros, 'ordenado');
+
+//Invertir y mostrar
+numeros.reverse()
+mostrararray(numeros, 'revertido');
+
+//contar elementos
+document.write("<h1>El array tiene: " +numeros.length+ " elementos</h1>");
+
+//busqueda
+let busqueda = parseInt(prompt("Busca un numero", 0));
+
+let posicion = numeros.findIndex(numero => numero == busqueda);
+
+if(posicion && posicion != -1){
+    document.write("<hr><h1>ENCONTRADO!!!</h1>");
+    document.write("<h1>Posicion de busqueda: " +posicion+ "</h1><hr>");  
+}else{
+    document.write("<h1>No encontrado</h1>");
+}

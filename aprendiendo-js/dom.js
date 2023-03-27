@@ -21,3 +21,25 @@ for (element in divRojos){
     console.log(divRojos)
     }
 }
+
+//Eventos del Raton
+let boton = document.querySelector("#boton");
+
+function cambiarColor(){
+    console.log("Me has dado click");
+    let bg = boton.style.background;
+    if( bg == "green"){
+        boton.style.background = "red";
+        
+    }else{
+        boton.style.background = "green"
+    }
+        boton.style.padding = "10px";
+        boton.style.border = "1px solid #ccc"
+    return true;
+}
+
+//Mouseover
+boton.addEventListener('mouseout', function(){
+    boton.style.background = "black"
+});

@@ -43,3 +43,25 @@ function cambiarColor(){
 boton.addEventListener('mouseout', function(){
     boton.style.background = "black"
 });
+
+//Focus
+let input = document.querySelector('#campo_nombre');
+input.addEventListener('focus', function(){
+    console.log("estas dentro del input");
+});
+//blur
+input.addEventListener('blur', function(){
+    console.log("estas fuera del input");
+});
+//keydown
+input.addEventListener('keydown', function(event){
+    console.log("Escribiste ", String.fromCharCode(event.keyCode));
+});
+//keypress
+input.addEventListener('keypress', function(event){
+    console.log("Tecla presionada ", String.fromCharCode(event.keyCode));
+});
+//keyup
+input.addEventListener('keyup', function(event){
+    console.log("Tecla soltada ", String.fromCharCode(event.keyCode));
+});

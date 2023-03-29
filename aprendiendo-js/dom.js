@@ -65,3 +65,7 @@ input.addEventListener('keypress', function(event){
 input.addEventListener('keyup', function(event){
     console.log("Tecla soltada ", String.fromCharCode(event.keyCode));
 });
+
+//TIMERS
+// setInterval = nos permite correr un pedazo de codigo cada cierto tiempo
+

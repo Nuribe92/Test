@@ -1,3 +1,5 @@
+window.addEventListener('load', function(){ 
+    console.log('DOM cargado')
 let caja = document.getElementById("micaja");
 caja.innerHTML = "Texto en la caja desde JS";
 console.log(caja)
@@ -69,3 +71,7 @@ input.addEventListener('keyup', function(event){
 //TIMERS
 // setInterval = nos permite correr un pedazo de codigo cada cierto tiempo
 
+function hola(){
+
+}
+})
